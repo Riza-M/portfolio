@@ -1,7 +1,16 @@
-# Riza Medetkhan's portfolio
-welcome to my portfolio foe EVR 628: interdiction to data management and visualization.
-## about me 
-I am master's student in chemical, environmental and materials engineering at the university of Miami. my research interests include environmental monitoring and analysis of environmental samples.
-## purpose 
-this responsibility will contain my coursework and data visualization projects for EVR 628.
-Updated from my MacBook
+# My Portfolio for EVR 628
+
+## Author
+
+Riza Medetkhan  
+GitHub username: Riza-M
+
+## Description
+
+This repository contains my work for EVR 628: Introduction to Data Management and Visualization for Environmental Scientists.
+
+## Project Structure
+
+- data/: Data files
+- scripts/: R scripts for processing and analysis
+- results/: Figures and tables
