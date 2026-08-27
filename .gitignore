@@ -43,6 +43,8 @@ vignettes/*.pdf
 docs/
 
 # translation temp files
+# macOS system  file
+.DS_Store
 po/*~
 
 # RStudio Connect folder
