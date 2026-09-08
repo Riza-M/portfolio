@@ -4,6 +4,8 @@
 
 Riza Medetkhan  
 GitHub username: Riza-M
+## abut me 
+i am master’s student in Chemical, Environmental and Materials Engineering at the UM.My research interests include environmental monitoring and the analysis of environmental samples.
 
 ## Description
 
@@ -13,4 +15,4 @@ This repository contains my work for EVR 628: Introduction to Data Management an
 
 - data/: Data files
 - scripts/: R scripts for processing and analysis
-- results/: Figures and tables
+- results/: Figures and tables 

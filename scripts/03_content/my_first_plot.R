@@ -11,3 +11,5 @@ p <- ggplot(data_lionfish,
   geom_point()
 
 p
+# Save plot
+ggsave(plot = p, filename = "results/figures/first_plot.png")
