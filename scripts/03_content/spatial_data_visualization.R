@@ -18,6 +18,17 @@ world <- ne_countries(
   returnclass = "sf"
 )
 
+# Calculate total catch by vessel flag in thousand tonnes
+catch_by_flag <- tuna %>%
+  group_by(flag) %>%
+  summarise(
+    total_catch_kt = sum(catch_kt, na.rm = TRUE),
+    .groups = "drop"
+  )
+
+# Join catch totals to the map using three-letter codes
+world_catch <- world %>%
+  left_join(catch_by_flag, by = c("iso_a3" = "flag"))
 # VISUALIZE
 
 # Draw the base map and color areas with matched catch data
