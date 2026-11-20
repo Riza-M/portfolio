@@ -42,11 +42,7 @@ tuna_map <- ggplot() +
   ) +
   scale_fill_viridis_c() +
   annotation_north_arrow(location = "tl") +
-  # At the equator, 18 degrees of longitude span about 2,000 km
-  annotate("segment", x = -165, xend = -147, y = 0, yend = 0,
-           linewidth = 0.8) +
-  annotate("text", x = -156, y = 6,
-           label = "Approx. 2,000 km at equator", size = 3) +
+  annotation_scale(location = "bl") +
   labs(
     title = "Reported tuna catch by vessel flag",
     fill = "Catch (thousand tonnes)",
@@ -57,9 +53,9 @@ tuna_map <- ggplot() +
       sep = "\n"
     )
   )
- 
 
 print(tuna_map)
+
 # EXPORT
 
 # Save the map as a PNG in the project results folder
@@ -73,6 +69,8 @@ ggsave(
   units = "in",
   dpi = 300
 )
+ 
+
 
 
 
